@@ -11,28 +11,64 @@
 
 <body>
     <nav class="navbar navbar-dark bg-dark">
-        <div id="divNav" class="col-12">
+        <div class="cal-3">
+            <a href="../index.html">
+                <img style="width:100px" src="https://gmailgiris.com/wp-content/uploads/2019/02/google-logo-png.png"
+                    alt="google">
+            </a>
+        </div>
+        <div id="divNav" class="col-9">
+
             <a href="../index.html" class="btn btn-danger" type="button">Back to Google Search</a>
         </div>
     </nav>
 
     <div id="divGoogle" class="container">
-        <div class="row">
-            <div class="col-12">
-                <img src="https://gmailgiris.com/wp-content/uploads/2019/02/google-logo-png.png" alt="google">
-            </div>
-        </div>
+
+
+
         <div class="row">
             <div class="col-12" style="text-align:center;">
                 <form action="https://google.com/search">
-                    <div class="row input">
-                        <div class="col-12">
-                            <input type="hidden" name="tbm" value="isch">
-                            <input id="text" type="text" name="q" style="width:600px">
+                    <div class="row ">
+                        <div class="col-2 label">
+                            <label for="atw">all these words: </label>
+                        </div>
+                        <div class="col-6 label">
+                            <input class="divinput1" id="atw" type="text" name="as_q">
                         </div>
                     </div>
-                    <div class="row input">
-                        <div class="col-12">
+                    <div class="row ">
+                        <div class="col-2 label">
+                            <label for="tewp">this exact word or phrase: </label>
+                        </div>
+                        <div class="col-6 label">
+
+                            <input class="divinput1" id="tewp" type="text" name="as_epq">
+                        </div>
+                    </div>
+
+
+                    <div class="row ">
+                        <div class="col-2 label">
+                            <label for="aotw">any of this words: </label>
+                        </div>
+                        <div class="col-6 label">
+                            <input class="divinput1" id="aotw" type="text" name="as_oq">
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-2 label">
+                            <label for="ntw">none of this words: </label>
+                        </div>
+                        <div class="col-6 label">
+                            <input class="divinput1" id="ntw" type="text" name="as_eq">
+                        </div>
+                    </div>
+
+                    <div class="row ">
+                        <div class="col-7" style="padding-top: 2%; text-align:right">
                             <input type="submit" value="Google Advance Search">
                         </div>
                     </div>
@@ -40,6 +76,7 @@
             </div>
         </div>
     </div>
+
 
 
 

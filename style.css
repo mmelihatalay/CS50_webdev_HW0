@@ -23,3 +23,12 @@ img {
   height: 40px;
   width: 600px;
 }
+
+.label {
+  text-align: left;
+  padding-top: 2%;
+}
+
+.divinput1 {
+  width: 500px;
+}
