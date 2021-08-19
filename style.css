@@ -1,19 +1,25 @@
-        div {
-            text-align: center;
-        }
+div {
+  text-align: center;
+}
 
-        img {
-            width: 600px;
-        }
+img {
+  width: 400px;
+}
 
-        .input {
-            padding-top: 1%;
-        }
+.input {
+  padding-top: 1%;
+}
 
-        #divNav {
-            text-align: right;
-        }
+#divNav {
+  text-align: right;
+}
 
-        #divGoogle {
-            padding-top: 8%;
-        }
+#divGoogle {
+  padding-top: 8%;
+}
+
+#text {
+  border-radius: 25px;
+  height: 40px;
+  width: 600px;
+}
