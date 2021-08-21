@@ -22,6 +22,14 @@ img {
   border-radius: 25px;
   height: 40px;
   width: 600px;
+  flex: 50%;
+}
+#text:focus {
+  outline: none;
+}
+
+.sbmt-btn {
+  border-radius: 5px;
 }
 
 .label {
@@ -31,4 +39,14 @@ img {
 
 .divinput1 {
   width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-right: 15px;
+}
+a:hover {
+  text-decoration: underline;
+  color: black;
 }
